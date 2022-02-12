@@ -1,5 +1,51 @@
-.background {
-    background-color: aqua;
-    color: black;
-    
+body {
+    background-color: black;  
 }
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+p {
+    color: rgb(255, 0, 255);
+    text-align: end;
+}
+
+a:hover {
+    color: green;
+}
+
+h5:hover {
+    color: orangered;
+    transform: scaleX(1.5);
+}
+
+h5 {
+    text-transform: uppercase;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 400;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 350px;
+    background-size: cover;
+    border: 8px dotted white;
+}
+
+img:hover {
+    transform: scaleX(1.2);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
