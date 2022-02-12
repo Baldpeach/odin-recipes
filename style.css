@@ -36,7 +36,7 @@ img {
     height: auto;
     width: 350px;
     background-size: cover;
-    border: 8px dotted white;
+    border: 8px solid white;
 }
 
 img:hover {
